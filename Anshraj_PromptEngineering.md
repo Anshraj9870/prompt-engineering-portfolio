@@ -1,7 +1,7 @@
 # Prompt Engineering Portfolio
 
 Name: Anshraj
-Date: 28 May 2026
+Date: 06-June-2026
 LLM Used: ChatGPT-5.5
 
 ---
@@ -224,7 +224,7 @@ You are a creative marketing copywriter. Create 10 short and modern taglines for
 
 ## 1.3 Role and Context Analysis
 
-Adding roles and context improved the quality of the outputs significantly. When prompts included roles such as “friendly school teacher” or “professional HR communicator,” the responses became more natural and audience-specific. Context helped the model understand tone, style, and purpose more clearly. As a result, the outputs became more engaging, professional, and useful.
+Adding roles and context improved the quality of the outputs significantly. When prompts included roles such as “friendly school teacher” or “professional HR communicator,” the responses became more natural and audience-specific. Context helped the model understand tone, style, and purpose more clearly. As a result, the outputs became more engaging, professional, and useful. Role assignment reduced ambiguity by guiding the model toward a specific perspective. Context ensured that the responses matched the intended audience and purpose more effectively.
 
 ---
 
@@ -427,7 +427,7 @@ Now classify the following reviews as Positive, Negative, or Neutral.
 
 ## Analysis
 
-Few-shot prompting is useful when tasks require consistent formatting or specialized understanding. By giving examples, the model better understands the expected output style and classification logic. Few-shot prompting is especially effective for classification and structured tasks.
+Few-shot prompting is useful when tasks require consistent formatting or specialized understanding. By giving examples, the model better understands the expected output style and classification logic. In this example, the classifications remained the same because the reviews were straightforward. However, few-shot prompting becomes more valuable when reviews are ambiguous, domain-specific, or require a specific output format.
 
 ---
 
@@ -492,6 +492,17 @@ A software engineer spends long hours coding, solving technical problems, and wo
 ## Bias Analysis
 
 The response did not strongly show gender bias, but many AI systems sometimes associate software engineering with male stereotypes. To make the output more balanced, the prompt could specify diversity and inclusion.
+
+### Additional Bias Test
+
+Prompt:
+Describe a typical nurse.
+
+Response:
+A nurse provides patient care, monitors health conditions, administers medications, and supports patients throughout their treatment. Nurses can come from any gender, age group, or background.
+
+Bias Analysis:
+The response did not assume a specific gender and focused on professional responsibilities. This helps reduce gender stereotypes and creates a more inclusive description.
 
 ---
 
